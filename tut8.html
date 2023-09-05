@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial</h2>
+    <form action="backened.php">
+        <label for="name"> Name:</label>
+    <div>
+        <input type="text" name="myName" id="name">
+    </div>
+    <!-- br not recomended div ka istimal karo yah ya kam ziyada prefear css -->
+    <br>
+    <div>
+       Role: <input type="text" name="myRole">
+    </div>
+    <br>
+    <div>
+        Email: <input type="email" name="myEmail">
+    </div>
+    <div>
+        <br>
+        Date: <input type="date" name="myDate">
+    </div>
+    <br> 
+    <div>
+        Bonus: <input type="number" value="myBonus">
+    </div>
+    <br> 
+    <div>
+        <!-- checked -->
+        Are you eligible?: <input type="checkbox" value="myEligiblity">
+    </div>
+    <br> 
+    <div>Gender:<br>
+        Male <input type="radio" value="myGender"> Female <input type="radio" value="myGender">
+        Other <input type="radio" value="myGender">
+    </div>
+    <br>
+    <div>
+       Write about yourself<br>
+       <textarea name="myText" id="" cols="30" rows="10"></textarea>
+    </div>
+
+    <br>
+    <div>
+       <label for="car">Car</label>
+       
+       <select name="mycar" id="">Car
+       <option value="toyo" selected>toyota</option>    
+       <option value="swf">swift</option>
+       </select>
+    </div>
+    <br> 
+    <div>
+        <input type="submit" value="Submit Now">
+        <input type="Reset" value="Reset Now ">
+
+    </div>
+</form>
+</body>
+</html>
